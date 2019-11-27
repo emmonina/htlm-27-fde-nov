@@ -1,0 +1,25 @@
+
+$variable: red
+
+body 
+    font: 100% Helvetica
+    background-color: $variable 
+
+@mixin mixin1  
+
+.banner
+    @include mixin1  
+
+.link
+    font: arial   
+
+
+.boton
+    color: orange
+
+.boton1
+    @extend .boton
+   
+
+
+
